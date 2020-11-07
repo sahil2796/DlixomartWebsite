@@ -1,0 +1,140 @@
+/* Footer */
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+
+}
+.banner
+  {
+    width: 1225px;
+  }
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  .banner 
+  {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .container
+  {
+    overflow: hidden;
+    padding-right: 15px;
+    padding-left: 27px;
+    margin-right: auto;
+    margin-left: -6px;
+  }
+  
+  .row
+  {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #buynow
+  {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  }
+  #price
+  {
+    position:absolute;
+    top:20px;
+    right:0;
+    font-size: 40px;
+  }
+  .footer
+  {
+    position: relative;
+    height: 150px;
+  }
+  #a
+  {
+    width: 3350px;
+    height: -50px; 
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    margin-left: 0px;
+    
+  }
+  #b
+  {
+    position:relative;
+    top: 0;
+  }
+
+ 
+}
+/* For tabs */
+@media only screen and (max-width: 768px){
+  .banner{
+    width: 100%;
+    overflow: hidden;
+  }
+  .container
+  {
+    overflow: hidden;
+  }
+}
+/* For desktops */
+@media only screen and (min-width: 1200px){
+  .banner{
+    width: 100%;
+    overflow: hidden;
+  }
+  .container
+  {
+    overflow: hidden;
+  }
+  .row
+  {
+    margin-left: 0px;
+  }
+  .footer
+  {
+    position: relative;
+    height: 30px;
+  }
+  #buynow
+  {
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  }
+  #price
+  {
+    position:absolute;
+    top:20px;
+    right:0;
+    font-size: 40px;
+  }
+  #a
+  {
+    width: 3350px;
+    height: -50px; 
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+    margin-left: 0px;
+    color: red
+  }
+  #b
+  {
+    font-size: 11px;
+    opacity: 0.5;
+  }
+  .footer
+  {
+    position: relative;
+    height: 125px;
+  }
+}
+  
